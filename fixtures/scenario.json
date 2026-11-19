@@ -1,0 +1,45 @@
+{
+  "synthetic": true,
+  "fields": [
+    "source",
+    "revision",
+    "scope",
+    "derived",
+    "transform",
+    "review"
+  ],
+  "records": [
+    {
+      "source": "src-a",
+      "revision": "1",
+      "scope": "period-1",
+      "derived": "view-a",
+      "transform": "clean-1",
+      "review": "accepted"
+    },
+    {
+      "source": "src-a",
+      "revision": "2",
+      "scope": "period-1",
+      "derived": "view-a",
+      "transform": "clean-1",
+      "review": "pending"
+    },
+    {
+      "source": "src-b",
+      "revision": "1",
+      "scope": "period-2",
+      "derived": "view-b",
+      "transform": "clean-2",
+      "review": "accepted"
+    },
+    {
+      "source": "src-a",
+      "revision": "2",
+      "scope": "period-1",
+      "derived": "view-c",
+      "transform": "clean-3",
+      "review": "pending"
+    }
+  ]
+}
